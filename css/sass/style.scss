@@ -1,0 +1,13 @@
+        @import 'helper/variables';
+        @import 'helper/mixin';
+        @import 'layout/header';
+        @import 'components/headings';
+        @import 'components/buttons';
+        @import 'components/tables';
+        @import 'components/forms';
+        @import 'layout/gird';
+        @import 'layout/footer';
+        @import 'pages/global';
+        html {
+            direction: ltr;
+        }
