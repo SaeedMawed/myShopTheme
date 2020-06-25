@@ -9075,11 +9075,12 @@ html {
       .adv-filter .sort-nav .sort-icon .sort-icon-img {
         width: 25px;
         height: 25px; }
-  .adv-filter .category-search .form-check-label {
-    font-size: 13px !important; }
-  .adv-filter .category-search .category-select {
-    margin: 5px 0 !important;
-    width: 150px; }
+  @media only screen and (max-width: 480px) {
+    .adv-filter .category-search .form-check-label {
+      font-size: 13px !important; }
+    .adv-filter .category-search .category-select {
+      margin: 5px 0 !important;
+      width: 130px; } }
 
 .offers-container {
   position: relative;
