@@ -327,9 +327,9 @@
     margin: 0px 15px; }
     @media screen and (max-width: 480px) {
       .header .header-search-container {
-        width: 260px !important;
-        margin-left: 15px !important;
-        margin-right: 0 !important; } }
+        width: 65% !important;
+        padding-left: 15px !important;
+        margin: 0 !important; } }
     @media screen and (min-width: 786px) {
       .header .header-search-container {
         width: 350px !important; } }
@@ -542,9 +542,18 @@ h1 {
   margin: 0 10px; }
   .logo img {
     max-height: 65px; }
+    @media only screen and (max-width: 410px) {
+      .logo img {
+        width: 100%;
+        min-width: 100px; } }
   @media screen and (max-width: 785px) {
     .logo {
       margin: 0px !important; } }
+  @media only screen and (max-width: 410px) {
+    .logo {
+      width: 35%;
+      margin: 0 !important;
+      min-width: 100px; } }
 
 a {
   text-decoration: none !important; }

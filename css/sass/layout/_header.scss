@@ -316,9 +316,9 @@
     .header-search-container {
         margin: 0px 15px;
         @media screen and (max-width: 480px) {
-            width: 260px !important;
-            margin-left: 15px !important;
-            margin-right: 0 !important;
+            width: 65% !important;
+            padding-left: 15px !important;
+            margin: 0 !important;
         }
         @media screen and (min-width:786px) {
             width: 350px !important;
