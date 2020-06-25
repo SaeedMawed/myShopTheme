@@ -583,32 +583,6 @@ a {
       top: 50%;
       z-index: -1; }
 
-.toggle-btn {
-  margin-top: 5px; }
-  .toggle-btn span {
-    display: block;
-    width: 30px;
-    height: 5px;
-    background-color: white;
-    margin-top: 5px; }
-  .toggle-btn:hover {
-    cursor: pointer; }
-
-.header-toggle-btn {
-  /*
-  @media screen and (max-width:768px) {
-      display: none !important;
-  }
-  */ }
-  .header-toggle-btn span {
-    display: block;
-    width: 30px;
-    height: 5px;
-    background-color: red;
-    margin-top: 5px; }
-  .header-toggle-btn:hover {
-    cursor: pointer !important; }
-
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -627,16 +601,6 @@ a {
   padding-left: 0px !important;
   padding-right: 0px !important; }
 
-/*
-.btn {
-    &:active {
-        border-color: #000;
-    }
-    &:focus {
-        border-color: #000;
-    }
-}
-*/
 .my-btn {
   background-color: rgba(63, 81, 181, 0.7);
   color: #fff;
@@ -648,23 +612,6 @@ a {
 .btn-success {
   background-color: #17a2b8 !important; }
 
-/*
-.header-language-btn {
-    margin-top: -7px;
-    text-decoration: none;
-    width: 15px;
-    height: 15px;
-    &:hover {
-        text-decoration: none;
-        color: red;
-    }
-    .language-text {
-        font-size: 14px;
-        color: black;
-        margin-left: 3px;
-    }
-}
-*/
 .btn-lg {
   font-size: 1rem !important; }
 

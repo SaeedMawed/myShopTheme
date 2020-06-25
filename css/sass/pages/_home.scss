@@ -49,9 +49,18 @@
  /* Our Card */
  
  .products-container {
-     margin: 0px 5px;
-     padding: 0rem 0;
      position: relative;
+     @media only screen and (max-width: 768px) {
+         padding-left: 5px !important;
+         padding-right: 5px !important;
+     }
+     @media only screen and (max-width: 410px) {
+         padding-left: 0px !important;
+         padding-right: 0px !important;
+         h2 {
+             font-size: 13px !important;
+         }
+     }
      .product {
          padding: .75rem;
      }
@@ -138,6 +147,9 @@
              width: 100%;
              margin: 0px;
              border-radius: 0px;
+             @media only screen and(max-width: 480px) {
+                 font-size: 14px;
+             }
          }
      }
      .btn-container {
@@ -199,6 +211,11 @@
              @media screen and (max-width: 767px) {
                  margin: .5rem 0;
              }
+             @media screen and (max-width: 400px) {
+                 display: flex !important;
+                 justify-content: center !important;
+                 align-items: center;
+             }
          }
          .sort-btn {
              border-radius: 0px;
@@ -249,6 +266,15 @@
                  width: 25px;
                  height: 25px;
              }
+         }
+     }
+     .category-search {
+         .form-check-label {
+             font-size: 13px !important;
+         }
+         .category-select {
+             margin: 5px 0 !important;
+             width: 150px;
          }
      }
  }
@@ -566,6 +592,9 @@
                          color: #fff !important;
                          margin-bottom: 0 !important;
                          font-size: 1rem;
+                         @media only screen and (max-width: 480px) {
+                             font-size: 14px !important;
+                         }
                      }
                      .btn {
                          height: 40px;
@@ -576,6 +605,9 @@
                          font-weight: bold;
                          border-radius: 30px;
                          min-width: 95px;
+                         @media only screen and (max-width: 480px) {
+                             font-size: 14px !important;
+                         }
                          .watch-icon {
                              padding-top: 1px;
                          }
