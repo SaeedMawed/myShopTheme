@@ -9190,7 +9190,7 @@ html {
               .offers-container .off-con .offers .left-slide-caption .amazing-offer span {
                 color: #fff !important; } }
           .offers-container .off-con .offers .left-slide-caption .amazing-offer span:nth-child(1) {
-            animation-delay: .4s;
+            animation-delay: 0s;
             color: #a62a2a; }
           .offers-container .off-con .offers .left-slide-caption .amazing-offer span:nth-child(2) {
             animation-delay: .4s;
