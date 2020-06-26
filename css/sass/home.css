@@ -9250,7 +9250,7 @@ html {
           left: 0rem; }
 
 .categories-container {
-  animation: bgcolors infinite 10s; }
+  animation: bgcolors infinite 15s; }
   .categories-container .our-collection {
     padding: 2rem 0;
     font-size: 22px;
@@ -9452,6 +9452,6 @@ html {
   90% {
     background-color: #5e4036; }
   100% {
-    background-color: #17a2b8; } }
+    background-color: #6aaaa6; } }
 
 /*# sourceMappingURL=home.css.map */
