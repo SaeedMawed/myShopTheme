@@ -503,6 +503,21 @@
     justify-content: center;
     align-items: center; }
 
+.fa-youtube:hover {
+  color: #ff0000 !important; }
+
+.fa-facebook:hover {
+  color: #0f90f3 !important; }
+
+.fa-github:hover {
+  color: #000 !important; }
+
+.fa-linkedin:hover {
+  color: #0077b5 !important; }
+
+.fa-instagram:hover {
+  color: #a62a2a !important; }
+
 /* Toggle btn colot */
 /*  Header Colors
     Start   */
@@ -913,20 +928,13 @@ table.dataTable thead .sorting_desc_disabled:before {
       color: #a62a2a !important;
       padding-right: 10px; }
     .footer .footer-top .segment-three a {
-      width: 40px;
-      height: 40px;
       display: inline-block;
-      border-radius: 50%; }
+      border-radius: 50%;
+      margin: 0 .25rem; }
       .footer .footer-top .segment-three a .svg-inline--fa {
-        color: #fff !important;
+        color: #fff;
         opacity: 87%;
         display: inline-block;
-        font-size: inherit;
-        height: 2em;
-        overflow: visible;
-        vertical-align: -0.125em;
-        padding: 0px;
-        margin: -10px 0px 0 5px;
         font-size: 30px; }
     .footer .footer-top .segment-four h2 {
       font-family: Poppins;
