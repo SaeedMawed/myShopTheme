@@ -6,6 +6,11 @@ var marginLeft = '280px',
 /* Start NEW Variables */
 var isHeaderScrollActive = false;
 
+/* Start preloader */
+$(window).on("load", function () {
+    $("#loader-container").fadeOut(1000);
+  });
+  /* End preloader */
 
 /* Style Scroll Effect */
 if (isHeaderScrollActive) {
@@ -47,3 +52,4 @@ $('#search').keyup(function() {
     }, 1000);
 
 });
+

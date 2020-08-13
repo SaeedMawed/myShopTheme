@@ -6,14 +6,9 @@ $(document).ready(function() {
 
 
 /*********************/
+/*
 $(document).ready(function() {
     $('#search').autocomplete({
-        //source : cities.slice(0, 3)
-        /*source : function(request, response) {
-	        var results = $.ui.autocomplete.filter(/search, request.term);
-
-	        response(results.slice(0, 10));
-		}*/
         source: '/test/search'
     }, {
         autoFocus: true,
@@ -21,7 +16,7 @@ $(document).ready(function() {
         minLength: 2
     });
 });
-
+*/
 
 
 
@@ -171,7 +166,7 @@ function filterProducts() {
 
 
 
-    //show all 
+    //show all
     for (i = 0; i < cards.length; i++) {
         cards[i].style.display = "";
     }
@@ -179,7 +174,7 @@ function filterProducts() {
 
 
     for (i = 0; i < cards.length; i++) {
-        // filter by category 
+        // filter by category
         titleCategory = cards[i].querySelector(".single-blog h3.product-category");
         titleGender = cards[i].querySelector(".single-blog h3.product-gender");
 
@@ -222,11 +217,11 @@ function filterProducts() {
 
 
         /*
-        if (titleCategory.innerText.toUpperCase().indexOf(category) > -1 
+        if (titleCategory.innerText.toUpperCase().indexOf(category) > -1
         		&& titleGender.innerText.toUpperCase().indexOf(category) > -1
         		&& titleSize.innerText.toUpperCase().indexOf(category) > -1) {
             cards[i].style.display = "";
-        } 
+        }
         else {
             cards[i].style.display = "none";
         }
@@ -235,7 +230,7 @@ function filterProducts() {
         if (category == "ALL"){
         	if (!(titleCategory.innerText.toUpperCase().indexOf(category) > -1 )) {
                 cards[i].style.display = "";
-            } 
+            }
             else {
                 cards[i].style.display = "";
             }
@@ -243,17 +238,17 @@ function filterProducts() {
         else {
         	if (!(titleCategory.innerText.toUpperCase().indexOf(category) > -1 )) {
                 cards[i].style.display = "none";
-            } 
+            }
             else {
                 cards[i].style.display = "";
             }
         }
         */
 
-        // filter by gender 
+        // filter by gender
 
 
-        // filter by size 
+        // filter by size
     }
 
 

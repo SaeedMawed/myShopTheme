@@ -1,6 +1,6 @@
-@import url(../jquery-ui.css);
-@import url(../jquery-ui.structure.css);
-@import url(../jquery-ui.theme.css);
+/*@import '../jquery-ui.css';
+@import '../jquery-ui.structure.css';
+@import '../jquery-ui.theme.css';*/
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -8001,26 +8001,26 @@ a.text-dark:hover, a.text-dark:focus {
       position: relative;
       height: 80px !important;
       border-left: 1px solid #d3d3d3d3;
-      /*
-      .cart {
-          
-          .cart-btn {
-              background-color: $header-background-color;
-              border: none;
-              cursor: pointer;
-              i {
-                  img {
-                      width: 54px;
-                      height: 54px;
-                      padding: 0px 0px;
-                      margin: 0px 0px 5px 0;
-                      margin: 6px;
-                  }
-              }
-          }
-          
-      }
-      */ }
+            /*
+            .cart {
+
+                .cart-btn {
+                    background-color: $header-background-color;
+                    border: none;
+                    cursor: pointer;
+                    i {
+                        img {
+                            width: 54px;
+                            height: 54px;
+                            padding: 0px 0px;
+                            margin: 0px 0px 5px 0;
+                            margin: 6px;
+                        }
+                    }
+                }
+
+            }
+            */ }
       .header .header-nav .navbar-right .short-profile-card {
         display: inline;
         padding-top: 0px; }
@@ -8189,7 +8189,7 @@ a.text-dark:hover, a.text-dark:focus {
                 cursor: pointer;
                 position: absolute;
                 z-index: 0;
-                font-size: 36px;
+                font-size: 30px;
                 margin-left: 10px;
                 height: 100%;
                 align-items: center;
@@ -8404,6 +8404,35 @@ a {
       top: 50%;
       z-index: -1; }
 
+.loader-container {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999999;
+  background: linear-gradient(to right, #252525, #434343);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; }
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 5px solid;
+  border-radius: 50%;
+  color: #3498db;
+  border-top-color: transparent;
+  animation: loader 1.2s linear infinite; }
+
+@keyframes loader {
+  25% {
+    color: #2eec71; }
+  50% {
+    color: #f1c40f; }
+  75% {
+    color: #e74c3c; }
+  to {
+    transform: rotate(360deg); } }
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -9268,10 +9297,12 @@ html {
         width: 100%;
         overflow-x: hidden; }
         .offers-container .off-con .offers .offers-swiper-container .swiper-wrapper .swiper-slide {
+          width: auto;
           height: 100%;
           border-radius: 10px;
           padding: 5px;
-          background-color: #fff; }
+          background-color: #fff;
+          cursor: pointer; }
           .offers-container .off-con .offers .offers-swiper-container .swiper-wrapper .swiper-slide .product {
             width: 100%;
             height: 70%;

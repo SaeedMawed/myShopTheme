@@ -1,7 +1,7 @@
  //Start Style
  /* Set gray background color and 100% height */
  /* Image Full Width */
- 
+
  .card-full-width {
      $height: 450px;
      height: $height;
@@ -47,7 +47,7 @@
      }
  }
  /* Our Card */
- 
+
  .products-container {
      position: relative;
      @media only screen and (max-width: 768px) {
@@ -177,7 +177,7 @@
          }
      }
  }
- 
+
  .my-page-navigation {
      display: flex;
      justify-content: center;
@@ -196,7 +196,7 @@
          background-color: #17a2b8 !important;
      }
  }
- 
+
  .adv-filter {
      background: linear-gradient(to right, #f1f1f1, #a62a2a, #17a2b8);
      .sort-nav {
@@ -280,7 +280,7 @@
          }
      }
  }
- 
+
  .offers-container {
      position: relative;
      width: 100% !important;
@@ -308,6 +308,7 @@
              background: linear-gradient(to right, #17a2b8, #a62a2a, #aaa, #17a2b8);
              padding: 1.5rem 1rem !important;
              height: 100% !important;
+
              @media only screen and (max-width: 768px) {
                  padding: 0rem 1rem !important;
              }
@@ -483,10 +484,12 @@
                  overflow-x: hidden;
                  .swiper-wrapper {
                      .swiper-slide {
+                         width:auto;
                          height: 100%;
                          border-radius: 10px;
                          padding: 5px;
                          background-color: #fff;
+                         cursor: pointer;
                          .product {
                              width: 100%;
                              height: 70%;
@@ -544,7 +547,7 @@
          }
      }
  }
- 
+
  .categories-container {
      animation: bgcolors infinite 15s;
      .our-collection {
@@ -714,14 +717,14 @@
          }
      }
  }
- 
+
  @keyframes rotateY {
      0%,
      80% {
          transform: rotateY(360deg);
      }
  }
- 
+
  @include keyFrame (fadeInOut) {
      0% {
          opacity: .5;
@@ -733,7 +736,7 @@
          opacity: .5;
      }
  }
- 
+
  @keyframes bgcolors {
      0% {
          background-color: #017aba;

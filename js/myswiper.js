@@ -6,7 +6,7 @@
     fadeEffect: {
             crossFade: true,
         },
-        
+
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -24,7 +24,6 @@
 });
 
 */
-
 var suggestions_swiper = new Swiper('.offers-swiper-container', {
     slidesPerView: 3,
     //spaceBetween: 20,
@@ -64,7 +63,7 @@ var suggestions_swiper = new Swiper('.offers-swiper-container', {
 
     },
     autoplay: {
-        delay: 5000,
+        delay: 500000,
         disableOnInteraction: false,
     },
 });
