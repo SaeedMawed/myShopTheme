@@ -7838,8 +7838,8 @@ a.text-dark:hover, a.text-dark:focus {
     Cart Table Style */
 /*  End 
     Cart Table Style */
-/* 
-** Overlay : all overlay in our site must have these properties 
+/*
+** Overlay : all overlay in our site must have these properties
 */
 /*
 ** Prefixes Mixin
@@ -7849,6 +7849,54 @@ a.text-dark:hover, a.text-dark:focus {
 ** Animation Mixin
 ** Auto Add Prefixes To Animation
 */
+@keyframes rotateY {
+  0%,
+    80% {
+    transform: rotateY(360deg); } }
+@-webkit-keyframes fadeInOut {
+  0% {
+    opacity: .5; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: .5; } }
+@-moz-keyframes fadeInOut {
+  0% {
+    opacity: .5; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: .5; } }
+@keyframes fadeInOut {
+  0% {
+    opacity: .5; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: .5; } }
+@keyframes bgcolors {
+  0% {
+    background-color: #017aba; }
+  10% {
+    background-color: #313337; }
+  20% {
+    background-color: #b93b47; }
+  30% {
+    background-color: #4a4f4b; }
+  40% {
+    background-color: #e8b543; }
+  50% {
+    background-color: #6573a2; }
+  60% {
+    background-color: #101012; }
+  70% {
+    background-color: #303540; }
+  80% {
+    background-color: #f23083; }
+  90% {
+    background-color: #5e4036; }
+  100% {
+    background-color: #6aaaa6; } }
 /* Toggle btn colot */
 /*  Header Colors
     Start   */
@@ -7866,8 +7914,8 @@ a.text-dark:hover, a.text-dark:focus {
     Cart Table Style */
 /*  End 
     Cart Table Style */
-/* 
-** Overlay : all overlay in our site must have these properties 
+/*
+** Overlay : all overlay in our site must have these properties
 */
 /*
 ** Prefixes Mixin
@@ -7877,6 +7925,54 @@ a.text-dark:hover, a.text-dark:focus {
 ** Animation Mixin
 ** Auto Add Prefixes To Animation
 */
+@keyframes rotateY {
+  0%,
+    80% {
+    transform: rotateY(360deg); } }
+@-webkit-keyframes fadeInOut {
+  0% {
+    opacity: .5; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: .5; } }
+@-moz-keyframes fadeInOut {
+  0% {
+    opacity: .5; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: .5; } }
+@keyframes fadeInOut {
+  0% {
+    opacity: .5; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: .5; } }
+@keyframes bgcolors {
+  0% {
+    background-color: #017aba; }
+  10% {
+    background-color: #313337; }
+  20% {
+    background-color: #b93b47; }
+  30% {
+    background-color: #4a4f4b; }
+  40% {
+    background-color: #e8b543; }
+  50% {
+    background-color: #6573a2; }
+  60% {
+    background-color: #101012; }
+  70% {
+    background-color: #303540; }
+  80% {
+    background-color: #f23083; }
+  90% {
+    background-color: #5e4036; }
+  100% {
+    background-color: #6aaaa6; } }
 .shadow-lg {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.175) !important; }
 
@@ -9452,6 +9548,10 @@ html {
             .categories-container .main-cards .my-card .container .caption .btn:hover {
               color: #3e86fb !important;
               background-color: #fff; }
+    @media screen and (min-width: 1150px) {
+      .categories-container .main-cards .col-lg-3 {
+        flex: 0 0 20%;
+        max-width: 20%; } }
     .categories-container .main-cards .my-card:nth-child(1) .caption {
       background-color: #5e4036; }
       .categories-container .main-cards .my-card:nth-child(1) .caption .btn:hover {
@@ -9500,54 +9600,5 @@ html {
       background-color: #017aba; }
       .categories-container .main-cards .my-card:nth-child(12) .caption .btn:hover {
         color: #017aba !important; }
-
-@keyframes rotateY {
-  0%,
-     80% {
-    transform: rotateY(360deg); } }
-@-webkit-keyframes fadeInOut {
-  0% {
-    opacity: .5; }
-  50% {
-    opacity: 1; }
-  100% {
-    opacity: .5; } }
-@-moz-keyframes fadeInOut {
-  0% {
-    opacity: .5; }
-  50% {
-    opacity: 1; }
-  100% {
-    opacity: .5; } }
-@keyframes fadeInOut {
-  0% {
-    opacity: .5; }
-  50% {
-    opacity: 1; }
-  100% {
-    opacity: .5; } }
-@keyframes bgcolors {
-  0% {
-    background-color: #017aba; }
-  10% {
-    background-color: #313337; }
-  20% {
-    background-color: #b93b47; }
-  30% {
-    background-color: #4a4f4b; }
-  40% {
-    background-color: #e8b543; }
-  50% {
-    background-color: #6573a2; }
-  60% {
-    background-color: #101012; }
-  70% {
-    background-color: #303540; }
-  80% {
-    background-color: #f23083; }
-  90% {
-    background-color: #5e4036; }
-  100% {
-    background-color: #6aaaa6; } }
 
 /*# sourceMappingURL=home.css.map */

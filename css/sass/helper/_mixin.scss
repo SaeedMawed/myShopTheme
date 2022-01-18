@@ -1,7 +1,7 @@
 @import 'variables';
 
-/* 
-** Overlay : all overlay in our site must have these properties 
+/*
+** Overlay : all overlay in our site must have these properties
 */
 
 @mixin overlay {
@@ -40,6 +40,61 @@
     }
     @keyframes #{$animation-name} {
         @content;
+    }
+}
+
+@keyframes rotateY {
+    0%,
+    80% {
+        transform: rotateY(360deg);
+    }
+}
+
+@include keyFrame (fadeInOut) {
+    0% {
+        opacity: .5;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .5;
+    }
+}
+
+@keyframes bgcolors {
+    0% {
+        background-color: #017aba;
+    }
+    10% {
+        background-color: #313337;
+    }
+    20% {
+        background-color: #b93b47;
+    }
+    30% {
+        background-color: #4a4f4b;
+    }
+    40% {
+        background-color: #e8b543;
+    }
+    50% {
+        background-color: #6573a2;
+    }
+    60% {
+        background-color: #101012;
+    }
+    70% {
+        background-color: #303540;
+    }
+    80% {
+        background-color: #f23083;
+    }
+    90% {
+        background-color: #5e4036;
+    }
+    100% {
+        background-color: #6aaaa6;
     }
 }
 

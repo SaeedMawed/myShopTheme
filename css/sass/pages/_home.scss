@@ -631,6 +631,7 @@
              position: relative;
              border-radius: 10px;
              margin: 1rem 0;
+
              .container {
                  margin: 0 !important;
                  padding: 0 !important;
@@ -679,6 +680,12 @@
                  }
              }
          }
+         @media screen and (min-width: 1150px) {
+            .col-lg-3 {
+                flex: 0 0 20%;
+                max-width: 20%;
+            }
+        }
          .my-card:nth-child(1) {
              @include category-color(#5e4036);
          }
@@ -718,57 +725,3 @@
      }
  }
 
- @keyframes rotateY {
-     0%,
-     80% {
-         transform: rotateY(360deg);
-     }
- }
-
- @include keyFrame (fadeInOut) {
-     0% {
-         opacity: .5;
-     }
-     50% {
-         opacity: 1;
-     }
-     100% {
-         opacity: .5;
-     }
- }
-
- @keyframes bgcolors {
-     0% {
-         background-color: #017aba;
-     }
-     10% {
-         background-color: #313337;
-     }
-     20% {
-         background-color: #b93b47;
-     }
-     30% {
-         background-color: #4a4f4b;
-     }
-     40% {
-         background-color: #e8b543;
-     }
-     50% {
-         background-color: #6573a2;
-     }
-     60% {
-         background-color: #101012;
-     }
-     70% {
-         background-color: #303540;
-     }
-     80% {
-         background-color: #f23083;
-     }
-     90% {
-         background-color: #5e4036;
-     }
-     100% {
-         background-color: #6aaaa6;
-     }
- }
